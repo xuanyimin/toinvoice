@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<Kp>
+  <Version>2.0</Version>
+  <Fpxx>
+  	<Zsl>1</Zsl>                          //此文件含有的单据信息数量
+  	<Fpsj>
+  		<Fp>	
+	  		<Djh>1</Djh >                    //单据号（20字节）
+	  		<Gfmc>购方名称</Gfmc>            //购方名称（100字节）
+	  		<Gfsh>110000000000000</Gfsh>  //购方税号
+	  		<Gfyhzh>购方银行账号</Gfyhzh>   //购方银行账号（100字节）
+	  		<Gfdzdh>购方地址电话</Gfdzdh>   //购方地址电话（100字节）
+			<Bz>备注</Bz> //备注（240字节）
+			<Fhr>fhr</Fhr> //复核人（8字节）
+			<Skr>skr</Skr> //收款人（8字节）
+			<Spbmbbh>13.0</Spbmbbh> //商品编码版本号(20字节)（必输项）
+			<Hsbz>0</Hsbz> //含税标志0：不含税税率，1：含税税率，2：差额税;中外合作油气田（原海洋石油）5%税率、1.5%税率为1，差额税为2，其他为0；	 
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>1</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>2</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>3</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>4</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>5</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>6</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>7</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>8</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+	  		<Spxx>
+		  		<Sph>
+			  		<Xh>9</Xh> 		         //序号
+			  		<Spmc>商品名称</Spmc>   //商品名称，
+ 					<Ggxh>规格型号</Ggxh>   //规格型号（40字节）
+			  		<Jldw>计量单位</Jldw>   //计量单位（32字节）
+					<Spbm>1090501070000000000</Spbm> //商品编码(19字节)长度必需一致（必输项）
+					<Qyspbm>001</Qyspbm> //企业商品编码（20字节）
+					<Syyhzcbz>0</Syyhzcbz>
+            				<Lslbz></Lslbz>
+            				<Yhzcsm></Yhzcsm>
+			  		<Dj>100</Dj> 	        //单价
+			  		<Sl>10</Sl> 		    //数量
+			  		<Je>1000.00</Je> 		//金额，当金额为负数时为折扣行
+			  		<Slv>0.17</Slv> 		//税率
+					<Kce>0</Kce > //扣除额，用于差额税计算
+		  		</Sph>
+	  		</Spxx>
+  		</Fp>
+  	</Fpsj>
+  </Fpxx>
+</Kp>
