@@ -1,6 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 
 import xlrd
+from xlutils.copy import copy
+from xlrd import open_workbook
 from xml.dom.minidom import Document
 
 def to_xml():
@@ -20,8 +22,6 @@ def to_xml():
     Fp = doc.createElement('Fp')
     Fpsj.appendChild(Fp)
     Djh = doc.createElement('Djh')
-    Djh.appendChild(doc.createTextNode('1'))
-    Fp.appendChild(Djh)
     Gfmc = doc.createElement('Gfmc')
     Gfmc.appendChild(doc.createTextNode(u'Select'))
     Fp.appendChild(Gfmc)
@@ -52,6 +52,10 @@ def to_xml():
 
     #处理EXCEL
     xls_data = xlrd.open_workbook('test.xls')
+    #从工作薄名中取得第几张发票
+    djh = xls_data.sheet_names()[0]
+    Djh.appendChild(doc.createTextNode(str(djh).replace(u'\xa0', ' ')))
+    Fp.appendChild(Djh)
     table = xls_data.sheets()[0]
     # 取得行数
     ncows = table.nrows
@@ -81,11 +85,17 @@ def to_xml():
             for key,vule in in_xls_data.iteritems():
                 mi = doc.createElement(key)
                 if isinstance(vule, (str, unicode)):
-                    mi.appendChild(doc.createTextNode(vule))
-                else:
-                    mi.appendChild(doc.createTextNode(str(vule)))
-                Sph.appendChild(mi)
 
+                    mi.appendChild(doc.createTextNode(vule.replace(u'\xa0', ' ')))
+                else:
+                    mi.appendChild(doc.createTextNode(str(vule).replace(u'\xa0', ' ')))
+                Sph.appendChild(mi)
+    # 写xls：
+    wb = copy(xls_data)
+    idx = xls_data.sheet_names().index(djh)
+    wb.get_sheet(idx).name = str(int(djh) + 1)
+    wb.save('test.xls')
+    #写XML
     with open('test.xml', 'w') as f:
         f.write(doc.toprettyxml(indent='\t', encoding='GBK'))
 
