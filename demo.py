@@ -2,78 +2,49 @@
 
 import xlrd
 from xlutils.copy import copy
-from xlrd import open_workbook
 from xml.dom.minidom import Document
 
-def to_xml():
-    doc = Document()
-    Kp = doc.createElement('Kp')
-    doc.appendChild(Kp)
-    Version = doc.createElement('Version')
-    Version.appendChild(doc.createTextNode('2.0'))
-    Kp.appendChild(Version)
-    Fpxx = doc.createElement('Fpxx')
-    Kp.appendChild(Fpxx)
-    Zsl = doc.createElement('Zsl')
-    Zsl.appendChild(doc.createTextNode('1'))
-    Fpxx.appendChild(Zsl)
-    Fpsj = doc.createElement('Fpsj')
-    Fpxx.appendChild(Fpsj)
-    Fp = doc.createElement('Fp')
-    Fpsj.appendChild(Fp)
-    Djh = doc.createElement('Djh')
-    Gfmc = doc.createElement('Gfmc')
-    Gfmc.appendChild(doc.createTextNode(u'Select'))
-    Fp.appendChild(Gfmc)
-    Gfsh = doc.createElement('Gfsh')
-    Gfsh.appendChild(doc.createTextNode(u'00000000000'))
-    Fp.appendChild(Gfsh)
-    Gfyhzh = doc.createElement('Gfyhzh')
-    Gfyhzh.appendChild(doc.createTextNode(u'Select'))
-    Fp.appendChild(Gfyhzh)
-    Gfdzdh = doc.createElement('Gfdzdh')
-    Gfdzdh.appendChild(doc.createTextNode(u'Select'))
-    Fp.appendChild(Gfdzdh)
-    Bz = doc.createElement('Bz')
-    Bz.appendChild(doc.createTextNode(u'昊添财务 tel: 18969275032'))
-    Fp.appendChild(Bz)
-    Fhr = doc.createElement('Fhr')
-    Fhr.appendChild(doc.createTextNode(''))
-    Fp.appendChild(Fhr)
-    Skr = doc.createElement('Skr')
-    Skr.appendChild(doc.createTextNode(''))
-    Fp.appendChild(Skr)
-    Spbmbbh = doc.createElement('Spbmbbh')
-    Spbmbbh.appendChild(doc.createTextNode('13.0'))
-    Fp.appendChild(Spbmbbh)
-    Hsbz = doc.createElement('Hsbz')
-    Hsbz.appendChild(doc.createTextNode('0'))
-    Fp.appendChild(Hsbz)
+invoice_top = 100000
+base= {u'Gfmc':'select',u'Gfsh':'000000000000',u'Gfyhzh':'select',u'Gfdzdh':'select',u'Bz':u'昊添财务 tel: 18969275032',
+           u'Fhr':'',u'Skr':'',u'Spbmbbh':'13.0',u'Hsbz':'1'}
+doc = Document()
+Kp = doc.createElement('Kp')
+doc.appendChild(Kp)
+Version = doc.createElement('Version')
+Version.appendChild(doc.createTextNode('2.0'))
+Kp.appendChild(Version)
+Fpxx = doc.createElement('Fpxx')
+Kp.appendChild(Fpxx)
 
-    #处理EXCEL
-    xls_data = xlrd.open_workbook('test.xls')
-    #从工作薄名中取得第几张发票
-    djh = xls_data.sheet_names()[0]
-    Djh.appendChild(doc.createTextNode(str(djh).replace(u'\xa0', ' ')))
-    Fp.appendChild(Djh)
-    table = xls_data.sheets()[0]
-    # 取得行数
-    ncows = table.nrows
-    ncols = table.ncols
-    colnames = table.row_values(1)
-    list = []
-    newcows = 0
-    for rownum in range(2, ncows):
-        row = table.row_values(rownum)
-        if row:
-            app = {}
-            for i in range(len(colnames)):
-                app[colnames[i]] = row[i]
-            if app.get(u'Spmc'):
-                list.append(app)
-                newcows += 1
+def to_xml(djh,invoice,number):
+    #处理xml发票张数
+    Zsl = doc.createElement('Zsl')
+    Zsl.appendChild(doc.createTextNode(str(number+1)))
+    Fpxx.appendChild(Zsl)
+    xml_company(djh, invoice)
+
+def xml_company(djh,invoice):
+    #处理XML每张发票的公司抬头
+    for newcows,list in invoice.iteritems():
+        Fpsj = doc.createElement('Fpsj')
+        Fpxx.appendChild(Fpsj)
+        Fp = doc.createElement('Fp')
+        Fpsj.appendChild(Fp)
+        base[u'Djh'] = djh + newcows
+        for key, vule in base.iteritems():
+            company = doc.createElement(key)
+            if isinstance(vule, (str, unicode)):
+                company.appendChild(doc.createTextNode(vule.replace(u'\xa0', ' ')))
+            else:
+                company.appendChild(doc.createTextNode(str(vule).replace(u'\xa0', ' ')))
+            Fp.appendChild(company)
+        xml_line(list,Fp)
+
+def xml_line(list,Fp):
+    # 处理发票的开票明细
     xh = 0
-    for data in range(0, newcows):
+    line = len(list)
+    for data in range(0, line):
         in_xls_data = list[data]
         if in_xls_data.get(u'Spmc'):
             xh += 1
@@ -82,23 +53,58 @@ def to_xml():
             Fp.appendChild(Spxx)
             Sph = doc.createElement('Sph')
             Spxx.appendChild(Sph)
-            for key,vule in in_xls_data.iteritems():
+            for key, vule in in_xls_data.iteritems():
                 mi = doc.createElement(key)
                 if isinstance(vule, (str, unicode)):
-
                     mi.appendChild(doc.createTextNode(vule.replace(u'\xa0', ' ')))
                 else:
                     mi.appendChild(doc.createTextNode(str(vule).replace(u'\xa0', ' ')))
                 Sph.appendChild(mi)
+
+def formxls():
+    #处理EXCEL
+    xls_data = xlrd.open_workbook('test.xls')
+    #从工作薄名中取得第几张发票
+    books = xls_data.sheet_names()[0]
+    djh = int(books)
+    table = xls_data.sheets()[0]
+    # 取得行数
+    ncows = table.nrows
+    colnames = table.row_values(1)
+    invoice ={}
+    list = []
+    newcows = 0
+    amount = 0
+    number = 0
+    for rownum in range(2, ncows):
+        row = table.row_values(rownum)
+        if row:
+            app = {}
+            for i in range(len(colnames)):
+                app[colnames[i]] = row[i]
+            amount += app.get(u'Je')
+            if app.get(u'Spmc'):
+                if amount > invoice_top:
+                    amount = 0
+                    invoice[number] = list
+                    list = []
+                    list.append(app)
+                    number += 1
+                    newcows = 0
+                else:
+                    list.append(app)
+                newcows += 1
+    invoice[number] = list
+    to_xml(djh,invoice,number)
+
     # 写xls：
     wb = copy(xls_data)
-    idx = xls_data.sheet_names().index(djh)
-    wb.get_sheet(idx).name = str(int(djh) + 1)
+    idx = xls_data.sheet_names().index(books)
+    wb.get_sheet(idx).name = str(int(djh) + number + 1)
     wb.save('test.xls')
-    #写XML
+    # 写XML
     with open('test.xml', 'w') as f:
         f.write(doc.toprettyxml(indent='\t', encoding='GBK'))
 
-
 if __name__ == "__main__":
-    to_xml()
+    formxls()
