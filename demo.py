@@ -61,7 +61,7 @@ def xml_line(list,Fp):
                     mi.appendChild(doc.createTextNode(str(vule).replace(u'\xa0', ' ')))
                 Sph.appendChild(mi)
 
-def formxls():
+def formxls(select):
     #处理EXCEL
     xls_data = xlrd.open_workbook('test.xls')
     #从工作薄名中取得第几张发票
@@ -83,6 +83,9 @@ def formxls():
             for i in range(len(colnames)):
                 app[colnames[i]] = row[i]
             amount += app.get(u'Je')
+            if select == '1':
+                app[u'Dj'] = app[u'Dj'] / (1+app[u'Slv'])
+                app[u'Je'] = app[u'Je'] / (1 + app[u'Slv'])
             if app.get(u'Spmc'):
                 if amount > invoice_top:
                     amount = 0
@@ -94,9 +97,10 @@ def formxls():
                 else:
                     list.append(app)
                 newcows += 1
+
     invoice[number] = list
     to_xml(djh,invoice,number)
-
+    print u'已重新生test.xml请到开票系统去导入'
     # 写xls：
     wb = copy(xls_data)
     idx = xls_data.sheet_names().index(books)
@@ -107,4 +111,9 @@ def formxls():
         f.write(doc.toprettyxml(indent='\t', encoding='GBK'))
 
 if __name__ == "__main__":
-    formxls()
+    print u'含税请打1，不含税请打0'
+    select = raw_input(u'请输入：')
+    if select == '1' or select == '0':
+        formxls(select)
+    else:
+        print u'请重新运行并正确选择'
