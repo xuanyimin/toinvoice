@@ -1,789 +1,354 @@
 <?xml version="1.0" encoding="GBK"?>
 <Kp>
-	<Version>2.0</Version>
+	<Version>3.0</Version>
 	<Fpxx>
 		<Zsl>1</Zsl>
 		<Fpsj>
 			<Fp>
-				<Djh>1</Djh>
-				<Gfmc>自己选择</Gfmc>
-				<Gfsh>00000000000</Gfsh>
-				<Gfyhzh>自己选择</Gfyhzh>
-				<Gfdzdh>自己选择</Gfdzdh>
-				<Bz>昊添财务，联系人：吴瑞玉 电话：18969275032</Bz>
-				<Fhr></Fhr>
 				<Skr></Skr>
-				<Spbmbbh>13.0</Spbmbbh>
+				<Gfyhzh>select</Gfyhzh>
+				<Gfsh>9133052100000000000</Gfsh>
+				<Sgbz>0</Sgbz>
 				<Hsbz>0</Hsbz>
+				<Djh>46</Djh>
+				<Fhr></Fhr>
+				<Gfdzdh>select</Gfdzdh>
+				<Spbmbbh>19.0</Spbmbbh>
+				<Gfmc>select</Gfmc>
+				<Bz>昊添财务 tel: 18969275032</Bz>
 				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.076923076923077</Dj>
-						<Spmc>脚套嵌件</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>1</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>20</Sl>
-						<Je>21.54</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>个</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.076923076923077</Dj>
-						<Spmc>脚套嵌件</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>2</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>120</Sl>
-						<Je>129.23</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>个</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>4.871794871794872</Dj>
-						<Spmc>螺纹接头</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>3</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>200</Sl>
-						<Je>974.36</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>套</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>4</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>90</Sl>
-						<Je>10.0</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066666666666667</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>5</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>90</Sl>
-						<Je>6.0</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.649572649572650</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4*520</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>6</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>3468</Sl>
-						<Je>2252.72</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.649572649572650</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4*520</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>7</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>2832</Sl>
-						<Je>1839.59</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.623931623931624</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4*482</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>8</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>2253</Sl>
-						<Je>1405.72</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.623931623931624</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4*482</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>9</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>1764</Sl>
-						<Je>1100.62</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.427350427350427</Dj>
-						<Spmc>盖帽</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>10</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>250</Sl>
-						<Je>106.84</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.136752136752137</Dj>
-						<Spmc>不锈钢卡件</Spmc>
-						<Ggxh>M009</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>11</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>1000</Sl>
-						<Je>1136.75</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>2.627350427350427</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M009</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>12</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>1000</Sl>
-						<Je>2627.35</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.547008547008547</Dj>
-						<Spmc>连接套 铝</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>13</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>440</Sl>
-						<Je>240.68</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>根</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.794871794871795</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>5*458</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>14</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>12500</Sl>
-						<Je>22435.9</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.965811965811966</Dj>
-						<Spmc>钢丝手柄</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>15</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>3590</Sl>
-						<Je>7057.26</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>根</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.794871794871795</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>5*458</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>16</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>3356</Sl>
-						<Je>6023.59</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.794871794871795</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>5*458</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>17</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>644</Sl>
-						<Je>1155.9</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.564102564102564</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4.5*458</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>18</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>960</Sl>
-						<Je>1501.54</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.564102564102564</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4.5*458</Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>19</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>3240</Sl>
-						<Je>5067.69</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.410256410256410</Dj>
-						<Spmc>嵌件</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>20</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>10752</Sl>
-						<Je>4411.08</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
-						<Jldw>根</Jldw>
+						<Jldw>只</Jldw>
 					</Sph>
-				</Spxx>
-				<Spxx>
 					<Sph>
 						<Kce></Kce>
 						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
+						<Dj>0.399145299145</Dj>
+						<Spmc>LYJ150 卡件</Spmc>
+						<Ggxh>1250*190*2mm</Ggxh>
 						<Slv>0.17</Slv>
 						<Xh>21</Xh>
 						<Lslbz></Lslbz>
 						<Syyhzcbz></Syyhzcbz>
-						<Sl>120</Sl>
-						<Je>13.33</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>22</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>120</Sl>
-						<Je>13.33</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.794871794871795</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>5*458</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>23</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>5956</Sl>
-						<Je>10690.26</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>2.627350427350427</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M009</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>24</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>3000</Sl>
-						<Je>7882.05</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>2.627350427350427</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M009</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>25</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>450</Sl>
-						<Je>1182.31</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>2.627350427350427</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M009</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>26</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>1000</Sl>
-						<Je>2627.35</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.307692307692308</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M003</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>27</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>1500</Sl>
-						<Je>1961.54</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>个</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.898290598290598</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M006</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>28</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>70</Sl>
-						<Je>132.88</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>个</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.898290598290598</Dj>
-						<Spmc>不锈钢手柄</Spmc>
-						<Ggxh>M006</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>29</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>1000</Sl>
-						<Je>1898.29</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>个</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.256410256410256</Dj>
-						<Spmc>钢圈</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>30</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>20016</Sl>
-						<Je>5132.31</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.564102564102564</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4.5*458</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>31</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>1056</Sl>
-						<Je>1651.69</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>1.564102564102564</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4.5*458</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>32</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>2160</Sl>
-						<Je>3378.46</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066666666666667</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>33</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>120</Sl>
-						<Je>8.0</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066654795821462</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>34</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>144</Sl>
-						<Je>9.6</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066595441595442</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>35</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>24</Sl>
-						<Je>1.6</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066595441595442</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>36</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>24</Sl>
-						<Je>1.6</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.066666666666667</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>37</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>30</Sl>
-						<Je>2.0</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>38</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>24</Sl>
-						<Je>2.67</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>39</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>24</Sl>
-						<Je>2.67</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>40</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>24</Sl>
-						<Je>2.67</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>41</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>30</Sl>
-						<Je>3.33</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.111111111111111</Dj>
-						<Spmc>垫片</Spmc>
-						<Ggxh></Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>42</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>90</Sl>
-						<Je>10.0</Je>
-						<Yhzcsm></Yhzcsm>
-						<Qyspbm></Qyspbm>
-						<Jldw>只</Jldw>
-					</Sph>
-				</Spxx>
-				<Spxx>
-					<Sph>
-						<Kce></Kce>
-						<Spbm>1080499000000000000</Spbm>
-						<Dj>0.649572649572650</Dj>
-						<Spmc>拉杆</Spmc>
-						<Ggxh>4*520</Ggxh>
-						<Slv>0.17</Slv>
-						<Xh>43</Xh>
-						<Lslbz></Lslbz>
-						<Syyhzcbz></Syyhzcbz>
-						<Sl>3168</Sl>
-						<Je>2057.85</Je>
+						<Sl>1000.0</Sl>
+						<Je>399.15</Je>
 						<Yhzcsm></Yhzcsm>
 						<Qyspbm></Qyspbm>
 						<Jldw>只</Jldw>

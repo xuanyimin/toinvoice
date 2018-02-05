@@ -5,13 +5,13 @@ from xlutils.copy import copy
 from xml.dom.minidom import Document
 
 invoice_top = 100000
-base= {u'Gfmc':'select',u'Gfsh':'000000000000',u'Gfyhzh':'select',u'Gfdzdh':'select',u'Bz':u'昊添财务 tel: 18969275032',
-           u'Fhr':'',u'Skr':'',u'Spbmbbh':'13.0',u'Hsbz':'1'}
+base= {u'Gfmc':'select',u'Gfsh':'9133052100000000000',u'Gfyhzh':'select',u'Gfdzdh':'select',u'Bz':u'昊添财务 tel: 18969275032',
+           u'Fhr':'',u'Skr':'',u'Spbmbbh':'19.0',u'Hsbz':'0',u'Sgbz':'0'}
 doc = Document()
 Kp = doc.createElement('Kp')
 doc.appendChild(Kp)
 Version = doc.createElement('Version')
-Version.appendChild(doc.createTextNode('2.0'))
+Version.appendChild(doc.createTextNode('3.0'))
 Kp.appendChild(Version)
 Fpxx = doc.createElement('Fpxx')
 Kp.appendChild(Fpxx)
@@ -44,12 +44,12 @@ def xml_line(list,Fp):
     # 处理发票的开票明细
     xh = 0
     line = len(list)
+    Spxx = doc.createElement('Spxx')
     for data in range(0, line):
         in_xls_data = list[data]
         if in_xls_data.get(u'Spmc'):
             xh += 1
             in_xls_data[u'Xh'] = xh
-            Spxx = doc.createElement('Spxx')
             Fp.appendChild(Spxx)
             Sph = doc.createElement('Sph')
             Spxx.appendChild(Sph)
@@ -82,10 +82,10 @@ def formxls(select):
             app = {}
             for i in range(len(colnames)):
                 app[colnames[i]] = row[i]
-            amount += app.get(u'Je')
             if select == '1':
                 app[u'Dj'] = app[u'Dj'] / (1+app[u'Slv'])
                 app[u'Je'] = app[u'Je'] / (1 + app[u'Slv'])
+            amount += app.get(u'Je')
             if app.get(u'Spmc'):
                 if amount > invoice_top:
                     amount = 0
@@ -112,7 +112,7 @@ def formxls(select):
 
 if __name__ == "__main__":
     print u'含税请打1，不含税请打0'
-    select = raw_input(u'请输入：')
+    select = raw_input(u'selct:')
     if select == '1' or select == '0':
         formxls(select)
     else:
